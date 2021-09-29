@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous" />
+    <!-- CSS -->
+    <style>
+      body {
+        background-image: url(pict/bg-picture.png);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-attachment: fixed;
+        background-size: cover;
+      }
+      span {
+        color: rgb(255, 161, 21);
+        font-size: 30px;
+      }
+      .jumbotron {
+        padding-top: 98px;
+        background-color: rgba(187, 203, 255, 0.589);
+      }
+      #logo {
+        width: 180px;
+      }
+      .profile {
+        font-size: 70px;
+        color: rgb(255, 161, 21);
+      }
+      #gallery {
+        background-color: rgba(187, 203, 255, 0.589);
+      }
+      .warna {
+        color: white;
+      }
+      img {
+        width: 380px;
+        padding: 10px 6px;
+      }
+      section {
+        padding-top: 120px;
+        padding-bottom: 140px;
+      }
+      .section2 {
+        padding-top: 180px;
+        padding-bottom: 200px;
+      }
+    </style>
+    <title>Group 1</title>
+  </head>
+  <body id="home">
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark shadow-sm fixed-top" style="background-color: rgb(142, 101, 255)">
+      <div class="container">
+        <a class="navbar-brand" href="index.html">GROUP <span>1</span></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#home">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#about">AboutUs</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#gallery">Gallery</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contact">ContactUs</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink dropdown-menu dropdown-menu-end dropdown-menu-lg-start" role="button" data-bs-toggle="dropdown" aria-expanded="false"> Menu </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                <li><a class="dropdown-item" href="tutorial/index.html">Tutorial</a></li>
+                <li><a class="dropdown-item" href="#">Tips</a></li>
+                <li><a class="dropdown-item" href="#">Ilmu Pengetahuan</a></li>
+                <li><a class="dropdown-item" href="login.html">Login (<i>FOR ADMIN</i>)</a></li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- Akhiran Navbar -->
+    <!-- Jumbotron -->
+    <section class="jumbotron text-center">
+      <img src="pict/logo2.png" alt="Logo Group 1" class="rounded-circle img-thumbnail shadow p-3 mb-5" id="logo" />
+      <h1 class="display-4" style="color: white">GROUP <span class="profile">1</span></h1>
+      <p class="lead">Technology | Tips | Tutorial</p>
+    </section>
+    <!-- Akhir Jumbotron -->
+    <!-- AboutUs -->
+    <section id="about" class="section2">
+      <div class="container">
+        <div class="row mb-5">
+          <div class="col text-center">
+            <h2>AboutUs</h2>
+          </div>
+        </div>
+        <div class="row justify-content-center text-center">
+          <div class="col-md-5 me-2">
+            Group 1 di dirikan pada tanggal 02 September 2021. Rekan kami terdiri dari empat orang dan kami semua dari sekolah yang sama, yaitu <a href="https://cintakasihtzuchi.sch.id/our-school/smk/">SMK Cinta Kasih Tzu Chi</a>. Website
+            ini di buat dengan tujuan memberi sebuah Ilmu baru atau Wawasan baru, supaya para pembaca lebih termudahkan dalam melakukan pekerjaannya.
+          </div>
+          <div class="col-md-5 ms-2">
+            Kami para rekan kami ini dengan senang hati jika menerima saran atau kritik dari pembaca sekalian. Jika memang ada sebuah kritik atau saran yang ingin di sampaikan silahkan ke <a href="#contact">ContactUs</a>. Semoga website ini
+            berguna bagi pembaca sekalian, sekian.
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Akhiran AboutUs -->
+    <!-- Gallery -->
+    <section id="gallery">
+      <div class="container">
+        <div class="row mb-5">
+          <div class="col text-center">
+            <h2 class="warna">Gallery</h2>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-4 mb-3">
+            <div class="card">
+              <img src="pict/Sekolah.jpg" class="card-img-top" alt="OurSchool" />
+              <div class="card-body">
+                <p class="card-text">Gambar dimana tempat kami sekolah dan menempuh pendidikan.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 mb-3">
+            <div class="card">
+              <img src="pict/Sekolah.jpg" class="card-img-top" alt="OurSchool" />
+              <div class="card-body">
+                <p class="card-text">Gambar dimana tempat kami sekolah dan menempuh pendidikan.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 mb-3">
+            <div class="card">
+              <img src="pict/Sekolah.jpg" class="card-img-top" alt="OurSchool" />
+              <div class="card-body">
+                <p class="card-text">Gambar dimana tempat kami sekolah dan menempuh pendidikan.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Akhir Gallery -->
+    <!-- ContactUs -->
+    <section id="contact">
+      <div class="container">
+        <div class="row text-center mb-5">
+          <div class="col">
+            <h2>Contact Us</h2>
+          </div>
+        </div>
+        <div class="row justify-content-center">
+          <div class="col-md-8">
+            <form action="simpan.php" method="POST">
+              <div class="mb-3">
+                <label for="email" class="form-label">Email</label>
+                <input type="email" class="form-control" id="email" name="email" aria-describedby="email" />
+              </div>
+              <div class="mb-3">
+                <label for="name" class="form-label">Nama</label>
+                <input type="text" class="form-control" id="name" name="nama" aria-describedby="name" />
+                <div class="mb-3">
+                  <label for="pesan" class="form-label">Pesan & Kritik</label>
+                  <textarea class="form-control" id="pesan" rows="3" name="pesan"></textarea>
+                </div>
+              <button type="submit" class="btn btn-primary mb-3" name="kirim">Kirim</button>&ensp;&ensp;&ensp;&ensp;<button type="reset" class="btn btn-primary mb-3">Batal</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Akhiran ContactUs -->
+    <!-- footer -->
+    <nav class="absolute-bottom pt-3 pb-3" style="background-color: rgb(142, 101, 255)">
+      <div class="text-white text-center">
+        <p class="fw-bold">Created by Us :</p>
+        <a href="https://www.instagram.com/nicoandreass452/?hl=id" class="text-decoration-underline text-white m-2" id="link">Nico Andreass</a>
+        <a href="https://www.instagram.com/rf_0654/" class="text-decoration-underline text-white m-2" id="link">Reynald</a>
+        <a href="https://www.instagram.com/steven_sebastian96/" class="text-decoration-underline text-white m-2" id="link">Steven Sebastian</a>
+        <a href="https://www.instagram.com/yogahs__/" class="text-decoration-underline text-white m-2" id="link">Yoga Hose</a>
+      </div>
+    </nav>
+    <!-- akhir footer -->
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script>
+  </body>
+</html>
